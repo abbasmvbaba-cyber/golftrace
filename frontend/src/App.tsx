@@ -18,7 +18,7 @@ function App() {
 
   return (
     <QueryClientProvider client={queryClient}>
-      <BrowserRouter>
+      <BrowserRouter basename="/golftrace">
         <div className="min-h-screen">
           <header className="bg-white shadow-sm border-b">
             <div className="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
@@ -31,8 +31,13 @@ function App() {
               <Route path="/" element={<ProjectList />} />
               <Route path="/projects/:projectId" element={<ProjectDetail />} />
               <Route path="/projects/:projectId/videos/:videoId" element={<EditorPage />} />
+              <Route path="/demo" element={<EditorPage />} />
             </Routes>
           </main>
+          <footer className="max-w-7xl mx-auto px-4 py-6 text-center text-xs text-gray-400">
+            <p>Backend API: {(import.meta as any).env?.VITE_API_BASE_URL || 'not configured - demo mode'}</p>
+            <p>Scientific Honesty: 2D image trajectory only, no real-world distance/speed claims</p>
+          </footer>
         </div>
       </BrowserRouter>
     </QueryClientProvider>

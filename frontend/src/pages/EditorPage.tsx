@@ -84,7 +84,7 @@ export default function EditorPage() {
       ctx.drawImage(img,0,0)
       // Draw annotations and track
       const currentAnn = annotations.find(a => a.frame_index === frameIndex)
-      if (currentAnn && currentAnn.visibility === 'visible' && currentAnn.x_norm != null) {
+      if (currentAnn && currentAnn.visibility === 'visible' && currentAnn.x_norm != null && currentAnn.y_norm != null) {
         const x = currentAnn.x_norm * canvas.width
         const y = currentAnn.y_norm * canvas.height
         ctx.beginPath()

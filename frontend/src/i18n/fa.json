@@ -1,0 +1,34 @@
+{
+  "project": {
+    "title": "پروژه‌ها",
+    "create": "ایجاد",
+    "placeholder": "عنوان پروژه",
+    "noProjects": "هنوز پروژه‌ای وجود ندارد"
+  },
+  "upload": {
+    "title": "آپلود ویدیو",
+    "hint": "حداکثر ۵۰۰ مگابایت، ۶۰ ثانیه، ۳۸۴۰x۲۱۶۰، تا ۱۲۰ FPS",
+    "uploading": "در حال آپلود {progress}٪"
+  },
+  "editor": {
+    "title": "ویرایشگر",
+    "frame": "فریم {current} / {total}",
+    "prev": "قبلی",
+    "next": "بعدی",
+    "markNotVisible": "علامت نامرئی",
+    "markOutOfFrame": "علامت خارج از کادر",
+    "deleteAnchor": "حذف انکر",
+    "analysisInterval": "بازه تحلیل",
+    "maxHint": "حداکثر ۱۵ ثانیه، ۱۸۰۰ فریم. پیش‌فرض ۰-۱۷۹۹",
+    "annotations": "انوتیشن‌ها ({count})",
+    "generateManual": "تولید مسیر دستی",
+    "requestTracking": "درخواست ترک کمکی",
+    "tracerStyle": "استایل تریسر",
+    "track": "ترک ({count} نقطه)",
+    "export": "خروجی MP4"
+  },
+  "scientificHonesty": {
+    "title": "صداقت علمی",
+    "description": "ما فقط مسیر دوبعدی در مختصات تصویر را تخمین می‌زنیم. هیچ ادعایی درباره مسافت واقعی، سرعت، چرخش یا پرواز سه‌بعدی از فیلم تک‌دوربین کالیبره‌نشده نداریم."
+  }
+}

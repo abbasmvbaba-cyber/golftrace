@@ -1,0 +1,5 @@
+[user]
+	email = golftrace-bot@example.com
+	name = GolfTrace Bot
+[init]
+	defaultBranch = main

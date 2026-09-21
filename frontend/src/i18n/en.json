@@ -1,0 +1,34 @@
+{
+  "project": {
+    "title": "Projects",
+    "create": "Create",
+    "placeholder": "Project title",
+    "noProjects": "No projects yet"
+  },
+  "upload": {
+    "title": "Upload Video",
+    "hint": "Max 500 MiB, 60s, 3840x2160, up to 120 FPS",
+    "uploading": "Uploading {progress}%"
+  },
+  "editor": {
+    "title": "Editor",
+    "frame": "Frame {current} / {total}",
+    "prev": "Prev",
+    "next": "Next",
+    "markNotVisible": "Mark Not Visible",
+    "markOutOfFrame": "Mark Out of Frame",
+    "deleteAnchor": "Delete Anchor",
+    "analysisInterval": "Analysis Interval",
+    "maxHint": "Max 15s, 1800 frames. Default 0-1799.",
+    "annotations": "Annotations ({count})",
+    "generateManual": "Generate Manual Path",
+    "requestTracking": "Request Assisted Tracking",
+    "tracerStyle": "Tracer Style",
+    "track": "Track ({count} points)",
+    "export": "Export MP4"
+  },
+  "scientificHonesty": {
+    "title": "Scientific Honesty",
+    "description": "We estimate 2D trajectory in image coordinates only. No real-world distance, speed, spin, or 3D flight claims from uncalibrated monocular footage."
+  }
+}
